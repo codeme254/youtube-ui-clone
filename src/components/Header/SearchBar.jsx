@@ -43,7 +43,7 @@ const SearchBar = () => {
                 <SearchIcon className={classes.header__search}></SearchIcon>
             </button>
             <button className="header__search--button">
-                <MicOutlinedIcon className={classes.header__search}></MicOutlinedIcon>
+                <MicOutlinedIcon className={classes.header__search} style={{fill: 'black'}}></MicOutlinedIcon>
             </button>
         </div>
     )
