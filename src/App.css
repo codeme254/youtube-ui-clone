@@ -7,10 +7,12 @@ html{
   font-size: 62.5%;
 }
 :root{
+  --color-black: #000;
   --color-black-light: #333;
   --color-white: #fff;
   --color-white-light: #f0f0f0;
   --color-dark-white: #ccc;
+  --color-white-lighter: #eee;
   --color-red: red;
   --border-bottom-main: 2px solid var(--color-white-light);
 }
@@ -19,6 +21,7 @@ body{
   font-size: 1.4rem;
   /* background-color: var(--color-black-light); */
   /* color: var(--color-white); */
+  overflow-x: hidden;
 }
 
 /* utility classes */
@@ -177,7 +180,7 @@ body{
   align-items: flex-start;
 }
 .sidebar{
-  margin-right: 6rem;
+  margin-right: 1rem;
   min-width: 20%;
   max-width: 20%;
   padding: 2rem;
@@ -314,4 +317,49 @@ body{
 .copyright{
   padding-left: 3rem;
   color: var(--color-black-light);
+}
+
+
+.preview-header{
+  --color-border: #999;
+  display: flex;
+  align-items: center;
+  max-width: 58%;
+  overflow: scroll;
+  position: relative;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.preview-header::-webkit-scrollbar{
+  display: none;
+}
+.preview-header>*:not(:last-child){
+  margin-right: 1rem;
+}
+
+.button-link:link, .button-link:visited{
+  text-decoration: none;
+  color: var(--color-black-light);
+  padding: .8rem 1.5rem;
+  background-color: var(--color-white-lighter);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #888;
+  min-width: fit-content;
+  transition: all .3s ease;
+}
+.button-link:hover{
+  background-color: #ddd;
+}
+.preview-header > :first-child{
+  background-color: #222;
+  color: var(--color-white);
+}
+/* active class for the categories buttons */
+.button-link__active{
+  background-color: #222;
+  color: var(--color-white);
 }

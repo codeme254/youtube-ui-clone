@@ -1,9 +1,10 @@
 import React from 'react';
+import PreviewHeader from './PreviewHeader';
 
 const PreviewsContainer = () => {
     return(
         <section className="previews">
-            the video cards will go here
+            <PreviewHeader />
         </section>
     )
 }
