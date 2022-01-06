@@ -6,6 +6,7 @@ import citizenImg from '../../../assets/images/citizen.jpg';
 import programmingImg from '../../../assets/images/code.png';
 import sistersImg from '../../../assets/images/sisters.jpg';
 import webDevSimplifiedImg from '../../../assets/images/webDevSimplified.jpg';
+import hiphopImg from '../../../assets/images/hiphop.jpg'
 
 import LinkImage from './LinkImage';
 import LinkIcon from './LinkIcon';
@@ -36,7 +37,7 @@ const Subscriptions = () => {
                 <LinkImage imagePath={programmingImg} linkName="Programming prime" route="/"/>
                 <LinkImage imagePath={webDevSimplifiedImg} linkName="Web Dev Simplified" route="/"/>
                 <LinkImage imagePath={sistersImg} linkName="Healthy Social Life" route="/"/>
-                <LinkImage imagePath={citizenImg} linkName="Hip Hop essentials" route="/"/>
+                <LinkImage imagePath={hiphopImg} linkName="Hip Hop essentials" route="/"/>
                 <LinkIcon linkName="show 208 more" route="/" icon={<KeyboardArrowDownOutlinedIcon className={classes.icon__show__more} />} />
             </div>
         </div>
