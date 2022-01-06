@@ -21,9 +21,6 @@ const PreviewHeader = () => {
             <ButtonLink route="/" linkName="career change"/>
             <ButtonLink route="/" linkName="parenting"/>
             <ButtonLink route="/" linkName="covid news"/>
-            <ButtonLink route="/" linkName="healthy living"/>
-            <ButtonLink route="/" linkName="pop music"/>
-            <ButtonLink route="/" linkName="new year resolutions"/>
         </div>
     )
 }

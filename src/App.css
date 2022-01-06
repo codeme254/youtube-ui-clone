@@ -21,7 +21,8 @@ body{
   font-size: 1.4rem;
   /* background-color: var(--color-black-light); */
   /* color: var(--color-white); */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  padding-right: 1rem;
 }
 
 /* utility classes */
@@ -179,6 +180,10 @@ body{
   display: flex;
   align-items: flex-start;
 }
+.previews{
+  max-width: 78%;
+  padding-right: 1rem;
+}
 .sidebar{
   margin-right: 1rem;
   min-width: 20%;
@@ -324,7 +329,7 @@ body{
   --color-border: #999;
   display: flex;
   align-items: center;
-  max-width: 58%;
+  max-width: 100%;
   overflow: scroll;
   position: relative;
   padding: 1rem 0;
@@ -362,4 +367,11 @@ body{
 .button-link__active{
   background-color: #222;
   color: var(--color-white);
+}
+
+
+/* previews */
+.all-preview-videos{
+  padding: 1.5rem;
+  background-color: #f4f4f4;
 }
