@@ -15,6 +15,52 @@ const AllPreviewVideos = () => {
                 releaseDate="2 months ago"
                 channelAvartarPath={travelifyLogo}
              />
+
+            <PreviewVideo
+                thumbnailPhotoPath={tourismZone}
+                playTime="25:30"
+                videoTitle="top ten vaccation sites of all time for you and your family in this festive season"
+                channelName="travelify"
+                views="2M"
+                releaseDate="2 months ago"
+                channelAvartarPath={travelifyLogo}
+             />
+             <PreviewVideo
+                thumbnailPhotoPath={tourismZone}
+                playTime="25:30"
+                videoTitle="top ten vaccation sites of all time for you and your family in this festive season"
+                channelName="travelify"
+                views="2M"
+                releaseDate="2 months ago"
+                channelAvartarPath={travelifyLogo}
+             />
+             <PreviewVideo
+                thumbnailPhotoPath={tourismZone}
+                playTime="25:30"
+                videoTitle="top ten vaccation sites of all time for you and your family in this festive season"
+                channelName="travelify"
+                views="2M"
+                releaseDate="2 months ago"
+                channelAvartarPath={travelifyLogo}
+             />
+             <PreviewVideo
+                thumbnailPhotoPath={tourismZone}
+                playTime="25:30"
+                videoTitle="top ten vaccation sites of all time for you and your family in this festive season"
+                channelName="travelify"
+                views="2M"
+                releaseDate="2 months ago"
+                channelAvartarPath={travelifyLogo}
+             />
+             <PreviewVideo
+                thumbnailPhotoPath={tourismZone}
+                playTime="25:30"
+                videoTitle="top ten vaccation sites of all time for you and your family in this festive season"
+                channelName="travelify"
+                views="2M"
+                releaseDate="2 months ago"
+                channelAvartarPath={travelifyLogo}
+             />
         </section>
     )
 }
