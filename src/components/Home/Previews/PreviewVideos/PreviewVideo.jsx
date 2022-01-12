@@ -1,4 +1,5 @@
-import React from 'react';
+import React  from 'react';
+import { Link } from 'react-router-dom';
 import WatchLaterOutlinedIcon from '@material-ui/icons/WatchLaterOutlined';
 import PlaylistAddIcon from '@material-ui/icons/PlaylistAdd';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
@@ -19,6 +20,7 @@ const useStyles = makeStyles({
 const PreviewVideo = ({videoPath, thumbnailPhotoPath, videoTitle, channelName, views, releaseDate, playTime, channelAvartarPath}) => {
     const classes = useStyles();
     return(
+        <Link to={"/play"} style={{textDecoration:"none"}}>
         <a href="yes" className="preview-video">
             <div className="preview-video__thumbnail-container">
                 <img src={thumbnailPhotoPath} alt={`${videoTitle} thumbnail representation`} className="preview-video__thumbnail-container--img" />
@@ -52,6 +54,7 @@ const PreviewVideo = ({videoPath, thumbnailPhotoPath, videoTitle, channelName, v
                 </div>
             </div>
         </a>
+        </Link>
     )
 }
 export default PreviewVideo;
